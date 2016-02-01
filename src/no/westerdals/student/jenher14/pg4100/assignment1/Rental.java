@@ -1,3 +1,9 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
 import java.util.ArrayList;
@@ -5,9 +11,6 @@ import java.util.List;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * Created by Herman on 25.01.2016.
- */
 public class Rental
 {
     private final ReentrantLock LOCK = new ReentrantLock();

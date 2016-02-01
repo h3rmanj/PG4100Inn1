@@ -1,11 +1,14 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
 import org.junit.*;
 import static org.junit.Assert.*;
 
-/**
- * Created by Herman on 29.01.2016.
- */
 public class CustomerTest
 {
     private static final String NAME = "Gunnar";

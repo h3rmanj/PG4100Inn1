@@ -1,3 +1,9 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
 import org.junit.*;
@@ -7,9 +13,6 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by Herman on 29.01.2016.
- */
 public class RentalTest
 {
     Rental rental;

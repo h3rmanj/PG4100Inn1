@@ -1,8 +1,11 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
-/**
- * Created by Herman on 31.01.2016.
- */
 public class Person
 {
     private String name;

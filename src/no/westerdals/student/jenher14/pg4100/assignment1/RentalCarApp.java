@@ -1,13 +1,16 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
 import java.util.Scanner;
 
-/**
- * Created by Herman on 25.01.2016.
- */
 public class RentalCarApp
 {
-    public RentalCarApp()
+    public RentalCarApp ()
     {
         Rental rental = new Rental();
 

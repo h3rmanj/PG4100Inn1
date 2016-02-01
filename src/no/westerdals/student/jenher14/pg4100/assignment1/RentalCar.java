@@ -1,13 +1,16 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
-/**
- * Created by Herman on 25.01.2016.
- */
 public class RentalCar extends Car
 {
     private Customer customer;
 
-    public RentalCar(String regNumber)
+    public RentalCar (String regNumber)
     {
         super(regNumber);
     }

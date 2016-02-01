@@ -1,24 +1,26 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
-/**
- * Created by Herman on 26.01.2016.
- *
- */
 public class Car
 {
     private String regNumber;
 
-    public Car(String regNumber)
+    public Car (String regNumber)
     {
         setRegNumber(regNumber);
     }
 
-    public String getRegNumber()
+    public String getRegNumber ()
     {
         return regNumber;
     }
 
-    public void setRegNumber(String regNumber)
+    public void setRegNumber (String regNumber)
     {
         if (regNumber == null)
             this.regNumber = "";

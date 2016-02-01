@@ -1,13 +1,16 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 1
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment1;
 
-/**
- * Created by Herman on 25.01.2016.
- */
 public class Customer extends Person implements Runnable
 {
     private Rental rental;
 
-    public Customer(String name, Rental rental)
+    public Customer (String name, Rental rental)
     {
         super(name);
         this.rental = rental;
@@ -30,12 +33,12 @@ public class Customer extends Person implements Runnable
         catch (InterruptedException e) {}
     }
 
-    public Rental getRental()
+    public Rental getRental ()
     {
         return rental;
     }
 
-    public void setRental(Rental rental)
+    public void setRental (Rental rental)
     {
         this.rental = rental;
     }
